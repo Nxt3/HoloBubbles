@@ -14,6 +14,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
+
+<!--You can change the fontFamily to one of several things... sans-serif = Roboto Regular. sans-serif-condensed = Roboto Condensed. sans-serif-thin = Roboto thin.
+    However, this will only work on Android 4.1 or above. Any version of Android below that will result in force closes. -->
  
 <!-- this is the default message layout, this will work fine for some themes, but others you will want to change positioning around -->
 <!-- or the padding on each item, ect. Just remember not to change any of the id's or remove any of the items or your theme will not work at all -->
@@ -32,7 +35,7 @@ limitations under the License.
            android:fontFamily="sans-serif-thin"
            android:textColor="@color/dateColorReceived"
            android:layout_centerHorizontal="true"/>
- 
+
     <ImageView
            android:layout_width="48dp"
            android:layout_height="48dp"
